@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43A9131F2DB041838962F575 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E84AEA1534144192AC2AEF43 /* libPods.a */; };
 		DE015795186750E80051D0FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE015794186750E80051D0FC /* Foundation.framework */; };
 		DE015797186750E80051D0FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE015796186750E80051D0FC /* CoreGraphics.framework */; };
 		DE015799186750E80051D0FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE015798186750E80051D0FC /* UIKit.framework */; };
@@ -21,6 +22,17 @@
 		DE0157B6186750E80051D0FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE015798186750E80051D0FC /* UIKit.framework */; };
 		DE0157BE186750E90051D0FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE0157BC186750E90051D0FC /* InfoPlist.strings */; };
 		DE0157C0186750E90051D0FC /* PlaceFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0157BF186750E90051D0FC /* PlaceFinderTests.m */; };
+		DE0157CA186751070051D0FC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0157C9186751070051D0FC /* CoreLocation.framework */; };
+		DE1C5119186757DD00D961D2 /* DDDDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C5116186757DD00D961D2 /* DDDDataService.m */; };
+		DE1C511A186757DD00D961D2 /* DDDServicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C5118186757DD00D961D2 /* DDDServicesManager.m */; };
+		DE1C511D1867581600D961D2 /* DDDManagerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C511C1867581600D961D2 /* DDDManagerBase.m */; };
+		DE1C51211867905C00D961D2 /* DDDLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C51201867905C00D961D2 /* DDDLocation.m */; };
+		DE1C5125186794B400D961D2 /* DDDPlaceSearchResultsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C5124186794B400D961D2 /* DDDPlaceSearchResultsResponse.m */; };
+		DE1C51291867983800D961D2 /* DDDPlaceSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C51281867983800D961D2 /* DDDPlaceSearchResult.m */; };
+		DE1C512C18679D3000D961D2 /* DDDBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C512B18679D3000D961D2 /* DDDBaseResponse.m */; };
+		DE1C512F1867BD7400D961D2 /* DDDPlaceLocationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C512E1867BD7400D961D2 /* DDDPlaceLocationResponse.m */; };
+		DE1C51331867BFCC00D961D2 /* DDDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C51321867BFCC00D961D2 /* DDDCollectionViewCell.m */; };
+		DE1C51371867D0F600D961D2 /* DDDLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C51361867D0F600D961D2 /* DDDLocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F9F9FCDB9FB418895E10623 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		DE015791186750E80051D0FC /* PlaceFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE015794186750E80051D0FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE015796186750E80051D0FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,28 @@
 		DE0157BB186750E90051D0FC /* PlaceFinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaceFinderTests-Info.plist"; sourceTree = "<group>"; };
 		DE0157BD186750E90051D0FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE0157BF186750E90051D0FC /* PlaceFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceFinderTests.m; sourceTree = "<group>"; };
+		DE0157C9186751070051D0FC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DE1C5115186757DD00D961D2 /* DDDDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDDataService.h; sourceTree = "<group>"; };
+		DE1C5116186757DD00D961D2 /* DDDDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDDataService.m; sourceTree = "<group>"; };
+		DE1C5117186757DD00D961D2 /* DDDServicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDServicesManager.h; sourceTree = "<group>"; };
+		DE1C5118186757DD00D961D2 /* DDDServicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDServicesManager.m; sourceTree = "<group>"; };
+		DE1C511B1867581600D961D2 /* DDDManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDManagerBase.h; sourceTree = "<group>"; };
+		DE1C511C1867581600D961D2 /* DDDManagerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDManagerBase.m; sourceTree = "<group>"; };
+		DE1C511F1867905C00D961D2 /* DDDLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDLocation.h; sourceTree = "<group>"; };
+		DE1C51201867905C00D961D2 /* DDDLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDLocation.m; sourceTree = "<group>"; };
+		DE1C5123186794B400D961D2 /* DDDPlaceSearchResultsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDPlaceSearchResultsResponse.h; sourceTree = "<group>"; };
+		DE1C5124186794B400D961D2 /* DDDPlaceSearchResultsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDPlaceSearchResultsResponse.m; sourceTree = "<group>"; };
+		DE1C51271867983800D961D2 /* DDDPlaceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDPlaceSearchResult.h; sourceTree = "<group>"; };
+		DE1C51281867983800D961D2 /* DDDPlaceSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDPlaceSearchResult.m; sourceTree = "<group>"; };
+		DE1C512A18679D3000D961D2 /* DDDBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDBaseResponse.h; sourceTree = "<group>"; };
+		DE1C512B18679D3000D961D2 /* DDDBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDBaseResponse.m; sourceTree = "<group>"; };
+		DE1C512D1867BD7400D961D2 /* DDDPlaceLocationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDPlaceLocationResponse.h; sourceTree = "<group>"; };
+		DE1C512E1867BD7400D961D2 /* DDDPlaceLocationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDPlaceLocationResponse.m; sourceTree = "<group>"; };
+		DE1C51311867BFCC00D961D2 /* DDDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDCollectionViewCell.h; sourceTree = "<group>"; };
+		DE1C51321867BFCC00D961D2 /* DDDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDCollectionViewCell.m; sourceTree = "<group>"; };
+		DE1C51351867D0F600D961D2 /* DDDLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDLocationManager.h; sourceTree = "<group>"; };
+		DE1C51361867D0F600D961D2 /* DDDLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDLocationManager.m; sourceTree = "<group>"; };
+		E84AEA1534144192AC2AEF43 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +95,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0157CA186751070051D0FC /* CoreLocation.framework in Frameworks */,
 				DE015797186750E80051D0FC /* CoreGraphics.framework in Frameworks */,
 				DE015799186750E80051D0FC /* UIKit.framework in Frameworks */,
 				DE015795186750E80051D0FC /* Foundation.framework in Frameworks */,
+				43A9131F2DB041838962F575 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +123,7 @@
 				DE0157B9186750E90051D0FC /* PlaceFinderTests */,
 				DE015793186750E80051D0FC /* Frameworks */,
 				DE015792186750E80051D0FC /* Products */,
+				7F9F9FCDB9FB418895E10623 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +139,12 @@
 		DE015793186750E80051D0FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE0157C9186751070051D0FC /* CoreLocation.framework */,
 				DE015794186750E80051D0FC /* Foundation.framework */,
 				DE015796186750E80051D0FC /* CoreGraphics.framework */,
 				DE015798186750E80051D0FC /* UIKit.framework */,
 				DE0157B3186750E80051D0FC /* XCTest.framework */,
+				E84AEA1534144192AC2AEF43 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +152,11 @@
 		DE01579A186750E80051D0FC /* PlaceFinder */ = {
 			isa = PBXGroup;
 			children = (
+				DE1C51301867BFAF00D961D2 /* UI */,
+				DE1C51221867948700D961D2 /* APIReponses */,
+				DE1C511E1867903400D961D2 /* Models */,
+				DE1C51141867578B00D961D2 /* Managers */,
+				DE1C51131867578200D961D2 /* Services */,
 				DE0157A3186750E80051D0FC /* DDDAppDelegate.h */,
 				DE0157A4186750E80051D0FC /* DDDAppDelegate.m */,
 				DE0157A6186750E80051D0FC /* Main.storyboard */,
@@ -152,6 +197,61 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DE1C51131867578200D961D2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C5115186757DD00D961D2 /* DDDDataService.h */,
+				DE1C5116186757DD00D961D2 /* DDDDataService.m */,
+				DE1C5117186757DD00D961D2 /* DDDServicesManager.h */,
+				DE1C5118186757DD00D961D2 /* DDDServicesManager.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DE1C51141867578B00D961D2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C511B1867581600D961D2 /* DDDManagerBase.h */,
+				DE1C511C1867581600D961D2 /* DDDManagerBase.m */,
+				DE1C51351867D0F600D961D2 /* DDDLocationManager.h */,
+				DE1C51361867D0F600D961D2 /* DDDLocationManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		DE1C511E1867903400D961D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C511F1867905C00D961D2 /* DDDLocation.h */,
+				DE1C51201867905C00D961D2 /* DDDLocation.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DE1C51221867948700D961D2 /* APIReponses */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C5123186794B400D961D2 /* DDDPlaceSearchResultsResponse.h */,
+				DE1C5124186794B400D961D2 /* DDDPlaceSearchResultsResponse.m */,
+				DE1C51271867983800D961D2 /* DDDPlaceSearchResult.h */,
+				DE1C51281867983800D961D2 /* DDDPlaceSearchResult.m */,
+				DE1C512A18679D3000D961D2 /* DDDBaseResponse.h */,
+				DE1C512B18679D3000D961D2 /* DDDBaseResponse.m */,
+				DE1C512D1867BD7400D961D2 /* DDDPlaceLocationResponse.h */,
+				DE1C512E1867BD7400D961D2 /* DDDPlaceLocationResponse.m */,
+			);
+			name = APIReponses;
+			sourceTree = "<group>";
+		};
+		DE1C51301867BFAF00D961D2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C51311867BFCC00D961D2 /* DDDCollectionViewCell.h */,
+				DE1C51321867BFCC00D961D2 /* DDDCollectionViewCell.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE0157C3186750E90051D0FC /* Build configuration list for PBXNativeTarget "PlaceFinder" */;
 			buildPhases = (
+				19A82771724A4399B2883C1A /* Check Pods Manifest.lock */,
 				DE01578D186750E80051D0FC /* Sources */,
 				DE01578E186750E80051D0FC /* Frameworks */,
 				DE01578F186750E80051D0FC /* Resources */,
+				454EDD18A6B14B799930031A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +347,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19A82771724A4399B2883C1A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		454EDD18A6B14B799930031A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE01578D186750E80051D0FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DE0157A1186750E80051D0FC /* main.m in Sources */,
+				DE1C51331867BFCC00D961D2 /* DDDCollectionViewCell.m in Sources */,
 				DE0157AB186750E80051D0FC /* DDDViewController.m in Sources */,
+				DE1C512F1867BD7400D961D2 /* DDDPlaceLocationResponse.m in Sources */,
+				DE1C512C18679D3000D961D2 /* DDDBaseResponse.m in Sources */,
+				DE1C51371867D0F600D961D2 /* DDDLocationManager.m in Sources */,
+				DE1C5125186794B400D961D2 /* DDDPlaceSearchResultsResponse.m in Sources */,
 				DE0157A5186750E80051D0FC /* DDDAppDelegate.m in Sources */,
+				DE1C5119186757DD00D961D2 /* DDDDataService.m in Sources */,
+				DE1C511D1867581600D961D2 /* DDDManagerBase.m in Sources */,
+				DE1C511A186757DD00D961D2 /* DDDServicesManager.m in Sources */,
+				DE1C51211867905C00D961D2 /* DDDLocation.m in Sources */,
+				DE1C51291867983800D961D2 /* DDDPlaceSearchResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +521,7 @@
 		};
 		DE0157C4186750E90051D0FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9F9FCDB9FB418895E10623 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +535,7 @@
 		};
 		DE0157C5186750E90051D0FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9F9FCDB9FB418895E10623 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +608,7 @@
 				DE0157C5186750E90051D0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE0157C6186750E90051D0FC /* Build configuration list for PBXNativeTarget "PlaceFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +617,7 @@
 				DE0157C8186750E90051D0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,12 +7,22 @@
 //
 
 #import "DDDAppDelegate.h"
+#import "DDDLocationManager.h"
+#import "AFNetworkActivityIndicatorManager.h"
 
 @implementation DDDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	[AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+
     // Override point for customization after application launch.
+	if ([CLLocationManager locationServicesEnabled])
+	{
+		[DDDLocationManager sharedInstance];
+		[[DDDLocationManager sharedInstance] start];
+	}
+	
     return YES;
 }
 							
@@ -31,11 +41,13 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
 	// Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+	[[DDDLocationManager sharedInstance] stop];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
 	// Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+	[[DDDLocationManager sharedInstance] start];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
